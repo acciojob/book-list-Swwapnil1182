@@ -9,7 +9,7 @@ function submit(){
 		return
 	}
 
-	const booklist=document.getElementById('book-list').value
+	const booklist=document.getElementById('book-list')
 	const row=document.createElement('tr')
 
 	row.innerHTML=`
